@@ -1,5 +1,6 @@
 
-const { onlyAlpha } = require("./Session - 1")
+// const { onlyAlpha } = require("./Session - 1")
+const { factorial } = require("./Session - 2")
 
 // Getting input via STDIN
 const readline = require("readline");
@@ -19,7 +20,7 @@ inp.on("close", () => {
     //Your code goes here … replace the below line with your code logic
 
     console.log(
-        onlyAlpha(userInput[0]) ? "yes" : "no"
+        factorial(+userInput[0])
     )
 
     //end-here
